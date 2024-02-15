@@ -7,6 +7,12 @@
   <packaging>jar</packaging>
   <url>https://github.com/pac4j/pac4j-tools</url>
 
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>9</version>
+  </parent>
+
   <repositories>
     <repository>
       <id>sonatype-nexus-snapshots</id>
